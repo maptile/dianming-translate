@@ -1,0 +1,44 @@
+{
+    "extends": ["eslint:recommended", "google"],
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "node": true,
+        "browser": true,
+        "jquery": true,
+        "es6": true,
+        "jest": true
+    },
+    "rules": {
+        "space-before-function-paren": ["off", {
+            "anonymous": "always",
+            "named": "always",
+            "asyncArrow": "always"
+        }],
+        "require-jsdoc": ["off"],
+        "no-var": ["off"],
+        "spaced-comment": ["warn"],
+        "max-len": ["error", {
+            "code": 120
+        }],
+        "object-curly-spacing": ["off"],
+        "no-invalid-this": ["off"],
+        "space-before-blocks": ["off"],
+        "keyword-spacing": ["off"],
+        "comma-dangle": ["off"],
+        "brace-style": ["off"],
+        "block-spacing": ["off"],
+        "prefer-arrow-callback": "off",
+        "prefer-const": "warn",
+        "no-const-assign": "error",
+        "no-extra-bind": "error",
+        "no-undef": "error",
+        "no-console": "off"
+    },
+    "globals": {
+    }
+}

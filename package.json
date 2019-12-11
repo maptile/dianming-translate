@@ -1,0 +1,23 @@
+{
+  "name": "dianming-translate",
+  "version": "1.0.0",
+  "description": "Translate dianming record into structured object",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com/juicyeye/dianming-translate.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "BH4DKS",
+  "license": "Copyright (2017-2018) BH4DKS. All rights reserved.",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.2.1"
+  }
+}
